@@ -128,7 +128,7 @@ To avoid an infinite loop in Python, make sure the code for your **while** loop 
 * Contains a quit condition.
 * Can reach that quit condition. A quit condition only helps you avoid infinite loops if your code eventually reaches the quit condition. 
 
-The example in the "Writing A while Loop In Python" section would iterate infinitely if you didn't increment the counter. Similarly, the Python example from the "Practical Uses in Python" section above would also iterate forever if you removed any potential quit conditions. For example, the following code creates an infinite loop:
+The example in the [Writing A while Loop In Python](#writing-a-while-loop-in-python) section would iterate infinitely if you didn't increment the counter. Similarly, the Python example from the [Practical Uses in Python](#practical-uses-in-python) section above would also iterate forever if you removed any potential quit conditions. For example, the following code creates an infinite loop:
 ```python
 potential_allergens = ['cats', 'dogs', 'mold', 'dust', 'marigolds']
 confirmed_allergens = []
