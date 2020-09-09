@@ -26,7 +26,7 @@ Structures defined in the standard Ruby library like classes, hashes, and arrays
 `Enumerable` is fundamentally about comparisons. Some of these comparisons are inherent to a method, like `#tally` (see below), which always counts the number of instances of items in an array. Other methods, like `#min` (see below) compare items inside a collection and require the programmer to define the basis of that comparison. The following are examples of some interesting and useful `Enumerable` methods.
 
 #### Drop
-`Enumerable` can save you a lot of work. For example, the following use of `#drop`  is an `Enumerable` method which removes the first n elements of an array and returns the rest: 
+`Enumerable` can save you a lot of work. For example, `#drop`  is an `Enumerable` method which removes the first n elements of an array and returns the rest: 
 ```ruby
 lemon = [1, 3, 5, 7, 9, 11]
 lemon.drop(2)		
